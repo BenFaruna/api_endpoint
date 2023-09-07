@@ -26,7 +26,7 @@ def api_route():
         "utc_time": current_day,
         "track": track,
         "github_file_url": os.getenv("github_file_url"),
-        "github_file_repo": os.getenv("github_file_repo"), # environmental variable
+        "github_repo_url": os.getenv("github_repo_url"), # environmental variable
         "status_code": 200
     })
 
